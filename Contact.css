@@ -1,0 +1,144 @@
+/* Reset */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+}
+a {
+    color: black;
+    text-decoration: none;
+}
+
+/*contact*/
+
+.contact-header{
+    background-color: #e07604;
+    height: 250px;
+    
+}
+.contact-header .header-flex{
+    height: 10vh;
+}
+
+.menu {
+    position: absolute;
+    top: 10px; 
+    right: 10px; 
+}
+
+.menu a {
+    margin-left: 10px; 
+}
+
+.contact-info {
+    text-align: center;
+    color: black;
+    margin-bottom: 40px;
+    margin-top: 40px;
+}
+
+.container {
+    display: flex;
+    justify-content: center; 
+    align-items: ;
+    height: 100vh; 
+    flex-direction: column; 
+    max-width: 2000px;
+}
+
+main.container {
+    margin-top: 200px;
+}
+
+
+fieldset {
+    padding: 20px; 
+    margin: 0 auto; 
+    width: 80%; 
+    max-width: 800px;
+    background-color: #dedddd;
+}
+
+.form-control {
+    margin-bottom: 20px;
+}
+
+.form-control label {
+    display: block; 
+}
+
+.form-control select,
+.form-control input[type="number"] {
+    width: calc(100% - 20px); /* Adjust width to accommodate padding */
+    padding: 10px; /* Add padding to form controls */
+    border: 1px solid #ccc; /* Add border for visual consistency */
+    border-radius: 4px; /* Add border radius for rounded corners */
+    font-size: 16px; /* Adjust font size as needed */
+}
+
+.form-control select {
+    appearance: none; /* Remove default appearance of select boxes */
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background-image: url('data:image/svg+xml;utf8,<svg fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="#000" d="M17 10l-5 5-5-5h10z"/></svg>'); /* Add custom dropdown arrow */
+    background-repeat: no-repeat;
+    background-position: right 10px center;
+    background-size: 16px;
+}
+
+.form-control select:focus,
+.form-control input[type="number"]:focus {
+    outline: none; 
+    border-color: #007bff; 
+}
+
+.form-control select:hover,
+.form-control input[type="number"]:hover {
+    border-color: #999; 
+}
+
+
+.form-details{
+    text-align: center;
+    font-size: 20px;
+    margin:20px auto;
+}
+
+.form-contol{
+margin: 10px;
+}
+
+.form-contol input, .form-contol textarea{
+background-color: rgb(250, 245, 245);
+width: 100%;
+border: none;
+padding: 10px;
+border-radius: 4px;
+}
+.form-contol label, legend{
+text-transform: uppercase;
+letter-spacing: 3px;
+font-size: 14px;
+font-weight: 700;
+}
+.radio{
+    display:flex;
+    gap: 20%;
+
+}
+
+fieldset .form-control input[type="text"],
+fieldset .form-control input[type="email"],
+fieldset .form-control input[type="tel"],
+fieldset .form-control textarea {
+    width: 100%; 
+    padding: 12px; 
+    font-size: 12px; 
+}
+
+
